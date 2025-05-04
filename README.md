@@ -1,11 +1,11 @@
-# Micro Circuits
- The system should keep track of stock codes, stock prices and stock count in three separate lists.
- The stock codes should be string-based, the prices floating-point and the count as integer.  To
+<h1> Micro Circuits</h1>
+ <p>The system should keep track of <b><em>stock codes, stock prices and stock count in three separate lists.</em></b>
+ The stock codes should be <b>string-based, the prices floating-point and the count as integer.</b>  To
  keep them competitive, their financial planner has advised them never to carry more than 50
- types of stock (according to stock code) at a time.
- • The system needs to have a function called AddStockCode().  This function needs to prompt the
+ types of stock (according to stock code) at a time.</p>
+ <p>The system needs to have a function called <b>AddStockCode().</b>  This function needs to prompt the
  user for a stock code and price and then add these values to the others already stored in the
- system.  Their advisor has also requested that no item may be priced higher than R 1000.00.
+ system.  Their advisor has also requested that no item may be priced higher than R 1000.00.</p>
  • To find a specific stock code, a search function is required.  Create a function called SearchCode
  to fulfill this function.  The function should receive a single string-based parameter, representing
  the stock code to search for.  The function must not do any unnecessary searching.  As soon as
