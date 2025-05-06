@@ -6,20 +6,20 @@
  <p>The system needs to have a function called <b>AddStockCode().</b>  This function needs to prompt the
  user for a stock code and price and then add these values to the others already stored in the
  system.  Their advisor has also requested that no item may be priced higher than R 1000.00.</p>
- <p>To find a specific stock code, a search function is required.  Create a function called SearchCode
+ <p>To find a specific stock code, a search function is required.  Create a function called <b>SearchCode</b>
  to fulfill this function.  The function should receive a single string-based parameter, representing
  the stock code to search for.  The function must not do any unnecessary searching.  As soon as
  the search value is found, the search process should halt.  Upon a successful search the function
  must return the index in the stock code list where the value was found.  If the value was not found,
  display a relevant message to the command-line and return a suitable value.</p>
  <p>Once the stock codes and prices have been added, it will be necessary to add stock to the system.
- Create a function called AddStockItem which will prompt the user for a stock code and the
+ Create a function called <b>AddStockItem</b> which will prompt the user for a stock code and the
  number of items to add.  This function should make a call to the SearchCode function to find the
  relevant stock item. To ensure that stock doesn’t get old in the shop, their financial planner has
  advised them that they should never have more than 100 items of any stock type (according to
  stock count) in the shop at a time.</p>
  <p>From time to time, it will be necessary to check the stock list.  Create a function called
- DisplayStockList which will display every stock code, with its associated price, number of items in
+ <b>DisplayStockList</b> which will display every stock code, with its associated price, number of items in
  stock and total stock value for each item.  The list should also display the total value of all stock in
  the system.  The list should be displayed with a header in a format similar to the following:</p>
  
