@@ -1,4 +1,5 @@
 <h1>🔌 Micro Circuits</h1>
+<h2>Assignment </h2>
 
 <p>📊 The system should keep track of <b><em>stock codes, stock prices, and stock count in three separate lists.</em></b>
 The stock codes should be <b>string-based 📝, the prices floating-point 💰, and the count as integer 🔢.</b>
